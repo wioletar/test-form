@@ -17,9 +17,9 @@ public class BaseTest {
         driver = new ChromeDriver(options);
     }
 
-//    @AfterMethod
-//    public void teadDown(){
-//        driver.quit();
-//    }
+    @AfterMethod
+    public void teadDown(){
+        driver.quit();
+    }
 
 }
